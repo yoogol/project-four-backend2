@@ -5,4 +5,5 @@ json.items @items do |item|
   json.item_category item.item_category
   json.last_worn item.last_worn
   json.created_at item.created_at
+  json.id item.id
 end
